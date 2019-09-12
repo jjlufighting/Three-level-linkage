@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+body{
+    background-color: aliceblue;
+}
+.content{
+    margin: 80px auto;
+    width: 300px;
+}
+.row{
+    background: white;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    
+}
+.row p{
+    float: left;
+    margin-left: 12px;
+    color: #03a9f4;
+}
+
+.row p::after{
+    content: '|';
+    color: rgb(160, 158, 158);
+    margin-left: 10px;
+    font-size: 14px;
+    margin-bottom: 1px;
+}
+.wrapper{
+    float: left;   
+    margin-left: 20px;
+    width: 210px;
+    height: 34px;
+    border-radius: 10px;
+}
+.wrapper select{
+    width: 210px;
+    height: 34px;
+    border-radius: 10px;
+    border-color:aliceblue;
+}
